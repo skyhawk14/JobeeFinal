@@ -1,0 +1,10 @@
+=============================================================================================
+**set the script "test"** inside the "package.json" file :
+FOR EXAMPLE:
+**In Windows**;
+"test": "SET NODE_ENV=test & jest",
+**In Linux/Mac**;
+"test": "NODE_ENV=test jest",
+=============================================================================================
+Controllers are separate file in which we write the route definitino
+=============================================================================================
